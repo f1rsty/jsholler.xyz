@@ -1,4 +1,27 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+section, footer, nav {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0;
+  width: 100%;
+  min-height: 350px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+
 .card {
+  float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -7,12 +30,16 @@
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
 }
 
 .title {
   color: grey;
   font-size: 18px;
+}
+
+img {
+  width: 100%;
 }
 
 button {
